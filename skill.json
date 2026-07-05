@@ -1,0 +1,45 @@
+{
+  "name": "seo-meta-generator-skill",
+  "version": "1.0.0",
+  "description": "Generate optimized SEO title tags and meta descriptions based on product name, category, and main keywords while adhering to search engine length standards.",
+  "author": "alphaparkinc",
+  "category": "seo",
+  "tags": [
+    "seo",
+    "metadata",
+    "title",
+    "description",
+    "marketing"
+  ],
+  "inputs": {
+    "product_name": {
+      "type": "string",
+      "description": "Product name."
+    },
+    "category": {
+      "type": "string",
+      "description": "Product category/type."
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Core target keywords to inject (top 2-3)."
+    },
+    "brand_name": {
+      "type": "string",
+      "description": "Optional brand name to append.",
+      "default": ""
+    }
+  },
+  "outputs": {
+    "seo_title": {
+      "type": "string",
+      "description": "Optimized HTML title tag (under 60 chars)."
+    },
+    "meta_description": {
+      "type": "string",
+      "description": "Optimized meta description (under 160 chars)."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
