@@ -1,5 +1,5 @@
 {
-  "name": "seo-meta-generator-skill",
+  "name": "genpark-seo-meta-generator-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Generate optimized SEO title tags and meta descriptions based on product name, category, and main keywords while adhering to search engine length standards.",
   "author": "genpark",
