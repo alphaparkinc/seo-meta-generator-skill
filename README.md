@@ -1,4 +1,4 @@
-# seo-meta-generator-skill
+# genpark-seo-meta-generator-skill
 
 > **GenPark AI Agent Skill** -- SEO Title & Meta Description optimizer.
 
